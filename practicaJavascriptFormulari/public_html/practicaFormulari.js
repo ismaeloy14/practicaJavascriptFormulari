@@ -7,5 +7,11 @@
 
 $("#botonNuevoFormulario").click(function(){
     var nombreFormulario = $("#inputNomFormulari");
+    var newDiv = document.createElement("div");
+    newDiv.setAttribute('class','divs');
+    var currentDiv = document.getElementById("divFormularis");
+    document.body.insertBefore(newDiv, currentDiv);
     
+    var newForm = document.createElement("form");
+    document.body.insertBefore(newForm, newDiv);
 });
