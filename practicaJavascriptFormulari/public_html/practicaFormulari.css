@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-feb-2019, 16:53:38
+    Author     : Ismael
+*/
+
+#divFormularis {
+    width: 100%;
+    overflow: auto;
+}
+
+header{
+    display: block;
+    text-align: center;
+}
+
+#inputNomFormulari{
+    width: 228px; 
+    height: 28px;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+#botonNuevoFormulario{
+    width: 228px; 
+    height: 32px;
+    font-size: 18px;
+    background-color: #1883ba;
+    border-radius: 9px;
+    border: 2px solid #000023;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#botonNuevoFormulario:hover{
+    color: #000000;
+    background-color: #ffffff;
+    
+}
