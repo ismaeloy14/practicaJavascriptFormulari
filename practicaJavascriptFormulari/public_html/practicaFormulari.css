@@ -44,5 +44,15 @@ header{
 }
 
 .divs {
-    background-color: black;
+
+    width: 31%;
+    border: 2px solid #1883ba;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+}
+
+form{
+    background-color: #EFF4FA;
+    padding: 5px;
 }
